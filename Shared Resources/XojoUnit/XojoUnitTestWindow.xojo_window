@@ -1,7 +1,7 @@
 #tag DesktopWindow
 Begin DesktopWindow XojoUnitTestWindow
    Backdrop        =   0
-   BackgroundColor =   16777215
+   BackgroundColor =   &cFFFFFF00
    Composite       =   False
    DefaultLocation =   0
    FullScreen      =   False
@@ -648,7 +648,7 @@ Begin DesktopWindow XojoUnitTestWindow
          AllowSpellChecking=   True
          AllowStyledText =   True
          AllowTabs       =   False
-         BackgroundColor =   16777215
+         BackgroundColor =   &cFFFFFF00
          Bold            =   False
          Enabled         =   True
          FontName        =   "System"
