@@ -1,31 +1,30 @@
-#tag Window
-Begin Window XojoUnitTestWindow
-   BackColor       =   &cFFFFFF00
+#tag DesktopWindow
+Begin DesktopWindow XojoUnitTestWindow
    Backdrop        =   0
-   CloseButton     =   True
+   BackgroundColor =   &cFFFFFF00
    Composite       =   False
-   Frame           =   0
+   DefaultLocation =   0
    FullScreen      =   False
-   FullScreenButton=   False
-   HasBackColor    =   False
+   HasBackgroundColor=   False
+   HasCloseButton  =   True
+   HasFullScreenButton=   False
+   HasMaximizeButton=   False
+   HasMinimizeButton=   True
    Height          =   600
    ImplicitInstance=   True
-   LiveResize      =   "True"
    MacProcID       =   0
-   MaxHeight       =   32000
-   MaximizeButton  =   False
-   MaxWidth        =   32000
+   MaximumHeight   =   32000
+   MaximumWidth    =   32000
    MenuBar         =   1919610602
    MenuBarVisible  =   True
-   MinHeight       =   64
-   MinimizeButton  =   True
-   MinWidth        =   64
-   Placement       =   0
+   MinimumHeight   =   64
+   MinimumWidth    =   64
    Resizeable      =   True
    Title           =   "XojoUnit"
+   Type            =   0
    Visible         =   True
    Width           =   800
-   Begin GroupBox GroupBoxes
+   Begin DesktopGroupBox GroupBoxes
       AutoDeactivate  =   True
       Bold            =   False
       Caption         =   "Overview"
@@ -53,7 +52,7 @@ Begin Window XojoUnitTestWindow
       Underline       =   False
       Visible         =   True
       Width           =   494
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -88,7 +87,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   68
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -123,7 +122,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   100
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -158,7 +157,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   68
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -193,7 +192,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   68
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -228,7 +227,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   68
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -263,7 +262,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   68
       End
-      Begin Label StartLabel
+      Begin DesktopLabel StartLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -298,7 +297,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   145
       End
-      Begin Label DurationLabel
+      Begin DesktopLabel DurationLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -333,7 +332,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   137
       End
-      Begin Label TestCountLabel
+      Begin DesktopLabel TestCountLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -368,7 +367,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   382
       End
-      Begin Label PassedCountLabel
+      Begin DesktopLabel PassedCountLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -403,7 +402,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   100
       End
-      Begin Label FailedCountLabel
+      Begin DesktopLabel FailedCountLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -438,7 +437,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   100
       End
-      Begin Label SkippedCountLabel
+      Begin DesktopLabel SkippedCountLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -473,7 +472,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   100
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -508,7 +507,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   135
       End
-      Begin Label NotImplementedCountLabel
+      Begin DesktopLabel NotImplementedCountLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -544,7 +543,7 @@ Begin Window XojoUnitTestWindow
          Width           =   100
       End
    End
-   Begin GroupBox GroupBoxes
+   Begin DesktopGroupBox GroupBoxes
       AutoDeactivate  =   True
       Bold            =   False
       Caption         =   "Selected Test Results"
@@ -572,7 +571,7 @@ Begin Window XojoUnitTestWindow
       Underline       =   False
       Visible         =   True
       Width           =   500
-      Begin Label TestNameLabel
+      Begin DesktopLabel TestNameLabel
          AutoDeactivate  =   True
          Bold            =   True
          DataField       =   ""
@@ -607,7 +606,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   242
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -642,7 +641,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   100
       End
-      Begin Label TestDurationLabel
+      Begin DesktopLabel TestDurationLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -677,7 +676,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   100
       End
-      Begin TextArea TestResultsArea
+      Begin DesktopTextArea TestResultsArea
          AcceptTabs      =   False
          Alignment       =   0
          AutoDeactivate  =   True
@@ -727,7 +726,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   463
       End
-      Begin Label Labels
+      Begin DesktopLabel Labels
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -762,7 +761,7 @@ Begin Window XojoUnitTestWindow
          Visible         =   True
          Width           =   100
       End
-      Begin Label TestResultLabel
+      Begin DesktopLabel TestResultLabel
          AutoDeactivate  =   True
          Bold            =   False
          DataField       =   ""
@@ -810,6 +809,7 @@ Begin Window XojoUnitTestWindow
    Begin DesktopTestController Controller
       AllTestCount    =   0
       Duration        =   0.0
+      Enabled         =   True
       FailedCount     =   0
       GroupCount      =   0
       Index           =   -2147483648
@@ -823,7 +823,7 @@ Begin Window XojoUnitTestWindow
       SkippedCount    =   0
       TabPanelIndex   =   0
    End
-   Begin ProgressWheel ProgressWheel1
+   Begin DesktopProgressWheel ProgressWheel1
       AutoDeactivate  =   True
       Enabled         =   True
       Height          =   16
@@ -845,7 +845,7 @@ Begin Window XojoUnitTestWindow
       Visible         =   False
       Width           =   16
    End
-   Begin Listbox TestGroupList
+   Begin DesktopListBox TestGroupList
       AutoDeactivate  =   True
       AutoHideScrollbars=   True
       Bold            =   False
@@ -898,11 +898,11 @@ Begin Window XojoUnitTestWindow
       _ScrollWidth    =   -1
    End
 End
-#tag EndWindow
+#tag EndDesktopWindow
 
 #tag WindowCode
 	#tag Event
-		Sub Open()
+		Sub Opening()
 		  Controller.LoadTestGroups
 		  
 		  PopulateTestGroups
@@ -976,37 +976,37 @@ End
 
 	#tag MenuHandler
 		Function EditSelectAllGroups() As Boolean Handles EditSelectAllGroups.Action
-			SelectAllGroups(True, False)
-			
-			Return True
-			
+		  SelectAllGroups(True, False)
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function EditUnselectAllGroups() As Boolean Handles EditUnselectAllGroups.Action
-			SelectAllGroups(False, False)
-			
-			Return True
-			
+		  SelectAllGroups(False, False)
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function FileRunTests() As Boolean Handles FileRunTests.Action
-			RunTests
-			
-			Return True
-			
+		  RunTests
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
 	#tag MenuHandler
 		Function HelpAboutXojoUnit() As Boolean Handles HelpAboutXojoUnit.Action
-			XojoUnitAboutWindow.Show
-			
-			Return True
-			
+		  XojoUnitAboutWindow.Show
+		  
+		  Return True
+		  
 		End Function
 	#tag EndMenuHandler
 
@@ -1025,7 +1025,7 @@ End
 		  
 		  For Each g As TestGroup In Controller.TestGroups
 		    TestGroupList.AddExpandableRow(g.Name)
-		    TestGroupList.CellTypeAt(TestGroupList.LastAddedRowIndex, ColInclude) = Listbox.CellTypes.CheckBox
+		    TestGroupList.CellTypeAt(TestGroupList.LastAddedRowIndex, ColInclude) = DesktopListBox.CellTypes.CheckBox
 		    TestGroupList.CellCheckBoxValueAt(TestGroupList.LastAddedRowIndex, ColInclude) = g.IncludeGroup
 		    TestGroupList.RowTagAt(TestGroupList.LastAddedRowIndex) = g
 		  Next
@@ -1047,7 +1047,7 @@ End
 		  lastRow = TestGroupList.RowCount - 1
 		  
 		  For row As Integer = lastRow DownTo 0
-		    If TestGroupList.ExpandableRowAt(row) Then
+		    If TestGroupList.RowExpandableAt(row) Then
 		      TestGroupList.RowExpandedAt(row) = False
 		    End If
 		  Next
@@ -1290,8 +1290,8 @@ End
 		  End If
 		  
 		  If row <> -1 Then
-		    TestGroupList.CellValueAt(row, ColTestName) = tr.TestName
-		    TestGroupList.CellValueAt(row, ColResult) = tr.Result
+		    TestGroupList.CellTextAt(row, ColTestName) = tr.TestName
+		    TestGroupList.CellTextAt(row, ColResult) = tr.Result
 		    TestGroupList.CellCheckboxValueAt(row, ColInclude) = tr.IncludeMethod
 		    
 		    If TestGroupList.SelectedRowIndex = row Then
@@ -1304,7 +1304,7 @@ End
 
 	#tag Method, Flags = &h21
 		Private Sub UpdateTestResults(tg As TestGroup)
-		  TestGroupList.Invalidate
+		  TestGroupList.Refresh
 		  
 		  Var tgRow As Integer = RowOfTestGroup(tg)
 		  If tgRow = -1 Then
@@ -1452,7 +1452,7 @@ End
 
 #tag Events TestToolbar1
 	#tag Event
-		Sub Action(item As ToolItem)
+		Sub Pressed(item As DesktopToolbarItem)
 		  Select Case item
 		  Case TestToolbar1.RunButton
 		    RunUntilFail = False
@@ -1482,7 +1482,7 @@ End
 		End Sub
 	#tag EndEvent
 	#tag Event
-		Sub Open()
+		Sub Opening()
 		  Me.RunButton.Enabled = True
 		  Me.StopButton.Enabled = False
 		  
@@ -1516,14 +1516,14 @@ End
 #tag EndEvents
 #tag Events TestGroupList
 	#tag Event
-		Sub ExpandRow(row As Integer)
+		Sub RowExpanded(row As Integer)
 		  Var g As TestGroup
 		  g = Me.RowTagAt(row)
 		  
 		  If g <> Nil Then
 		    For Each result As TestResult In g.Results
 		      Me.AddRow("")
-		      Me.ColumnTypeAt(ColInclude) = ListBox.CellTypes.CheckBox
+		      Me.ColumnTypeAt(ColInclude) = DesktopListBox.CellTypes.CheckBox
 		      Me.RowTagAt(Me.LastAddedRowIndex) = result
 		      
 		      UpdateTestResult(result, Me.LastAddedRowIndex)
@@ -1532,12 +1532,12 @@ End
 		End Sub
 	#tag EndEvent
 	#tag Event
-		Sub Change()
+		Sub SelectionChanged()
 		  UpdateTestSummary
 		End Sub
 	#tag EndEvent
 	#tag Event
-		Sub DoubleClick()
+		Sub DoublePressed()
 		  Me.RowExpandedAt(Me.SelectedRowIndex) = Not Me.RowExpandedAt(Me.SelectedRowIndex)
 		End Sub
 	#tag EndEvent
@@ -1559,11 +1559,11 @@ End
 		End Sub
 	#tag EndEvent
 	#tag Event
-		Function CellBackgroundPaint(g As Graphics, row As Integer, column As Integer) As Boolean
+		Function PaintCellBackground(g As Graphics, row As Integer, column As Integer) As Boolean
 		  #Pragma Unused column
 		  
 		  #If TargetMacOS Then
-		    If row Mod 2 = 0 And Not Me.Selected(row) Then
+		    If row Mod 2 = 0 And Not Me.RowSelectedAt(row) Then
 		      g.DrawingColor = RGB(237, 243, 254) '&cD0D4FF
 		      g.FillRectangle(0, 0, g.Width, g.Height)
 		    End If
@@ -1577,8 +1577,8 @@ End
 		End Function
 	#tag EndEvent
 	#tag Event
-		Function ContextualMenuAction(hitItem as MenuItem) As Boolean
-		  Select Case hitItem.Text
+		Function ContextualMenuItemSelected(selectedItem As DesktopMenuItem) As Boolean
+		  Select Case SelectedItem.Text
 		  Case kCMSelectAllGroups
 		    SelectAllGroups(True, False)
 		    
@@ -1600,27 +1600,27 @@ End
 		    Next
 		    
 		  Case kCMSelectAllTests
-		    SelectAllTests(hitItem.Tag, True)
+		    SelectAllTests(SelectedItem.Tag, True)
 		    
 		  Case kCMSelectInverseTests
-		    SelectInverseTests(hitItem.Tag)
+		    SelectInverseTests(SelectedItem.Tag)
 		    
 		  Case kCMUnselectAllTests
-		    SelectAllTests(hitItem.Tag, False)
+		    SelectAllTests(SelectedItem.Tag, False)
 		    
 		  Case kCMSelectOneTest
-		    Var tag As Pair = hitItem.Tag
+		    Var tag As Pair = SelectedItem.Tag
 		    Var tg As TestGroup = tag.Left
 		    Var tr As TestResult = tag.Right
 		    SelectAllGroups(False, True)
 		    SelectOneTest(tg, tr)
 		    
 		  Case kCMSelectThisGroup
-		    Var tg As TestGroup = hitItem.Tag
+		    Var tg As TestGroup = SelectedItem.Tag
 		    SelectOneGroup(tg, True)
 		    
 		  Case kCMUnselectThisGroup
-		    Var tg As TestGroup = hitItem.Tag
+		    Var tg As TestGroup = SelectedItem.Tag
 		    SelectOneGroup(tg, False)
 		    
 		  Case kCMSelectAllGroupsAndTests
@@ -1639,7 +1639,7 @@ End
 		End Function
 	#tag EndEvent
 	#tag Event
-		Function ConstructContextualMenu(base as MenuItem, x as Integer, y as Integer) As Boolean
+		Function ConstructContextualMenu(base As DesktopMenuItem, x As Integer, y As Integer) As Boolean
 		  #Pragma Unused x
 		  #Pragma Unused y
 		  
@@ -1693,7 +1693,7 @@ End
 		End Function
 	#tag EndEvent
 	#tag Event
-		Function CellTextPaint(g As Graphics, row As Integer, column As Integer, x as Integer, y as Integer) As Boolean
+		Function PaintCellText(g as Graphics, row as Integer, column as Integer, x as Integer, y as Integer) As Boolean
 		  #Pragma Unused column
 		  #Pragma Unused x
 		  #Pragma Unused y
